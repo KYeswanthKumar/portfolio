@@ -67,46 +67,52 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="text-center py-28 px-6">
-        <h1 className="text-5xl md:text-7xl font-bold">
-          Hi, I'm{" "}
-          <span className="text-cyan-400">
-            Kakarla Yeswanth Kumar
-          </span>
-        </h1>
+<section className="text-center py-20 px-6">
+  <img
+    src="/profile.jpg"
+    alt="Kakarla Yeswanth Kumar"
+    className="w-48 h-48 rounded-full mx-auto border-4 border-cyan-400 shadow-2xl hover:scale-105 transition duration-300 object-cover"
+  />
 
-        <p className="mt-6 text-xl text-gray-300">
-          B.Tech – Computer Science Engineering
-        </p>
+  <h1 className="text-5xl md:text-7xl font-bold mt-6">
+    Hi, I'm{" "}
+    <span className="text-cyan-400">
+      Kakarla Yeswanth Kumar
+    </span>
+  </h1>
 
-        <p className="mt-4 text-lg text-gray-400">
-          Aspiring Software Engineer • Generative AI Enthusiast
-        </p>
+  <p className="mt-6 text-xl text-gray-300">
+    B.Tech – Computer Science Engineering
+  </p>
 
-        <p className="mt-4 max-w-3xl mx-auto text-gray-400">
-          Aspiring Software Engineer with strong foundations in Java,
-          Data Structures, OOPs, and Generative AI. Passionate about
-          building intelligent, scalable applications and seeking an
-          opportunity to contribute to AI-driven SaaS products while
-          enhancing problem-solving and software development skills.
-        </p>
+  <p className="mt-4 text-lg text-gray-400">
+    Aspiring Software Engineer • Generative AI Enthusiast
+  </p>
 
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <a
-            href="#projects"
-            className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl font-semibold"
-          >
-            View Projects
-          </a>
+  <p className="mt-4 max-w-3xl mx-auto text-gray-400">
+    Aspiring Software Engineer with strong foundations in Java,
+    Data Structures, OOPs, and Generative AI. Passionate about
+    building intelligent, scalable applications and seeking an
+    opportunity to contribute to AI-driven SaaS products while
+    enhancing problem-solving and software development skills.
+  </p>
 
-          <a
-            href="#contact"
-            className="border border-cyan-400 px-6 py-3 rounded-xl hover:bg-cyan-400 hover:text-black"
-          >
-            Contact Me
-          </a>
-        </div>
-      </section>
+  <div className="mt-8 flex flex-wrap justify-center gap-4">
+    <a
+      href="#projects"
+      className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl font-semibold"
+    >
+      View Projects
+    </a>
+
+    <a
+      href="#contact"
+      className="border border-cyan-400 px-6 py-3 rounded-xl hover:bg-cyan-400 hover:text-black"
+    >
+      Contact Me
+    </a>
+  </div>
+</section>
 
       {/* About */}
       <section id="about" className="max-w-5xl mx-auto px-6 py-16">
